@@ -1,0 +1,9 @@
+[Unit]
+Description=Radio systemd service unit file.
+
+[Service]
+ExecStart=/Radio.out
+
+[Install]
+WantedBy=multi-user.target
+

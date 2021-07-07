@@ -1,0 +1,9 @@
+[Unit]
+Description=Radio shutdown systemd service unit file.
+
+[Service]
+ExecStart=/shutdownhandler.out
+
+[Install]
+WantedBy=multi-user.target
+
